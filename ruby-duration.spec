@@ -9,7 +9,7 @@ Source0:	http://gems.rubyforge.org/gems/duration-%{version}.gem
 #Patch0: %{name}-nogems.patch
 URL:		http://rubyforge.org/projects/duration
 BuildRequires:	rpmbuild(macros) >= 1.277
-BuildRequires:	setup.rb = 3.4.1
+BuildRequires:	setup.rb >= 3.4.1
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
